@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:gravity="center_horizontal"
+   >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Connect3"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a smaller version of the connect 4 game we all love. The players take turns placing tokens in a column. This token will drop to the lowest available position. The goal of the game is to have three tokens in a row horizontally, vertically, or diagonally."
+        android:textSize="20sp"
+        android:layout_marginTop="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can play against the computer (which is easy to beat) or against a partner on this device."
+        android:textSize="20sp"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have fun!"
+        android:textSize="20sp"
+        android:gravity="left"/>
+
+
+    <Button
+        android:id="@+id/playComputerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        android:text="Play against the computer" />
+
+    <Button
+        android:id="@+id/playPartnerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Play against a partner" />
+
+    <Button
+        android:id="@+id/onlinePlayFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Play online live" />
+
+</LinearLayout> 
